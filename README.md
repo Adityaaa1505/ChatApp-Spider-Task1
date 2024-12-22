@@ -15,3 +15,14 @@ The Chat App, built on MERN and Socket.io, facilitates real-time text communicat
 ### 3. **Notifications**
 - Includes a **notification sound** and a **smooth animation** when a new message is received.
 
+## Run the Application
+
+### Client
+- cd frontend
+- npm install
+- npm run dev
+
+### Server
+- cd backend
+- npm install
+- node index.js
