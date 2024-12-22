@@ -26,3 +26,5 @@ The Chat App, built on MERN and Socket.io, facilitates real-time text communicat
 - cd backend
 - npm install
 - node index.js
+
+  ### Go to "http://localhost:5173"
