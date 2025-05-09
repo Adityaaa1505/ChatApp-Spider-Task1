@@ -1,30 +1,43 @@
-# Spider-Task1-Aditya-Agrawal
+# **ChatApp** 💬
 
-The Chat App, built on MERN and Socket.io, facilitates real-time text communication between users.
+The Chat App, built with the **MERN** stack and **Socket.io**, facilitates real-time text communication between users, providing a smooth and interactive experience.
 
-## Features
+---
 
-### 1. **Real-Time Messaging**
-- Instant text-based communication.
+## **Tech Stack**
 
-### 2. **User Authentication**
-- Secure login and registration using **bcrypt**.
-- Password encryption for user safety.
-- **Cookies** and **jsonwebtoken** are used for verification of user status.
+- **Frontend**: React
+- **Backend**: Node.js, Express
+- **Real-time Communication**: Socket.io
+- **Authentication**: JWT, bcrypt
 
-### 3. **Notifications**
-- Includes a **notification sound** and a **smooth animation** when a new message is received.
+---
 
-## Run the Application
+## **Features**
 
-### Client
-- cd frontend
-- npm install
-- npm run dev
+- 💬 Instant text-based communication between users.
+- 🔒 Secure login and registration with password encryption using bcrypt.
+- 🛡️ Cookies and JWT for user status verification.
+- 🔔 Notification sound and smooth animation when a new message is received.
 
-### Server
-- cd backend
-- npm install
-- node index.js
+---
 
-  ### Go to "http://localhost:5173"
+## **Installation**
+
+Follow these steps to install and run ChatApp locally:
+
+1. **Install the necessary packages for the frontend**:
+   ```bash
+   cd frontend
+   npm install
+2. **To run the client in the frontend directory**:
+   ```bash
+   npm run dev
+3. **Install the necessary packages for the backend**:
+   ```bash
+   cd backend
+   npm install
+4. **Start the backend server**:
+   ```bash
+   node index.js
+5. **Open your browser and navigate to http://localhost:5173 to access the ChatApp.**
